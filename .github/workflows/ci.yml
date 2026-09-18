@@ -31,7 +31,7 @@ jobs:
       - name: who started and when
         env:
           STARTAD_AV: ${{ github.actor }}
-          HANDELSE: ${{ github.event }}
+          HANDELSE: ${{ github.event_name }}
           GREN: ${{ github.ref_name }}
         run: |
           echo "Startad av $STARTAD_AV — händelse: $HANDELSE — gren: $GREN"
