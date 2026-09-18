@@ -28,6 +28,20 @@ jobs:
         run: dotnet build --no-restore --configuration ${{ env.BUILD_CONFIGURATION }}
       - name: Test no build
         run: dotnet test --no-build --configuration ${{ env.BUILD_CONFIGURATION }}
-      
-  
-  
+      - name: who started and when
+        env:
+          STARTAD_AV: ${{ github.actor }}
+          HANDELSE: ${{ github.event_name }}
+          GREN: ${{ github.ref_name }}
+        run: |
+          echo "Startad av $STARTAD_AV — händelse: $HANDELSE — gren: $GREN"
+
+  formatering:
+    runs-on: ubuntu-latest
+    steps: 
+       - uses: actions/checkout@v7
+       - uses: actions/setup-dotnet@v6
+         with: 
+           dotnet-version: 10.0.x
+       - name: format
+         run: dotnet format --report
