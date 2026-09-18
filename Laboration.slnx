@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Common.Tests/Common.Tests.csproj" />
+  <Project Path="Common/Common.csproj" />
+  <Project Path="Y2015D10.Tests/Y2015D10.Tests.csproj" Id="fc999554-0f6a-418e-9d43-0d49d33b19f9" />
+  <Project Path="Y2015D10/Y2015D10.csproj" Id="e2caa524-4026-4cb6-b5c5-5f91bd36405d" />
+  <Project Path="Y2019D1.Tests/Y2019D1.Tests.csproj" Id="52dae335-a6fd-4bae-904d-4ec91e276d86" />
+  <Project Path="Y2019D1/Y2019D1.csproj" Id="eb8239cf-d97c-4b79-9475-d8e29b98ef87" />
+  <Project Path="Y2021D01.Tests/Y2021D01.Tests.csproj" />
+  <Project Path="Y2021D01/Y2021D01.csproj" />
+</Solution>
