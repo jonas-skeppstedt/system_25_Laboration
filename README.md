@@ -12,4 +12,5 @@ Kör `dotnet test`. `Common.Tests` ska vara grönt, `Y2021Day01.Tests` ska vara 
 Börja där.
 
 ![CI](https://github.com/jonas-skeppstedt/system_25_Laboration/actions/workflows/ci.yml/badge.svg)
+
 ![CI](https://github.com/JuliaaAndersson/system_25_Laboration/actions/workflows/ci.yml/badge.svg)
