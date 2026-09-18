@@ -28,7 +28,7 @@ jobs:
         run: dotnet build --no-restore --configuration ${{ env.BUILD_CONFIGURATION }}
       - name: Test no build
         run: dotnet test --no-build --configuration ${{ env.BUILD_CONFIGURATION }}
-      - name: Vem och vad startade det här?
+      - name: who started and when
         env:
           STARTAD_AV: ${{ github.actor }}
           HANDELSE: ${{ github.event }}
