@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: action/checkout@v7
-      - uses: action/setup-dotnet@6
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@6
         with: 
           dotnet version: '10.0.x'
       - name: Restore
